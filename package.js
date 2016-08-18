@@ -1,6 +1,6 @@
 /* jshint ignore:start */
 Package.describe({
-  name: 'etc:web3',
+  name: 'ethereumclassic:web3',
   version: '0.17.0-alpha',
   summary: 'Ethereum JavaScript API, middleware to talk to a ethreum node over RPC',
   git: 'https://github.com/ethereumproject/web3.js',

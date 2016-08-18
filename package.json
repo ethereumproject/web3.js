@@ -1,6 +1,6 @@
 {
   "name": "web3",
-  "namespace": "etc",
+  "namespace": "ethereumclassic",
   "version": "0.17.0-alpha",
   "description": "Ethereum JavaScript API, middleware to talk to a ethereum node over RPC",
   "main": "./index.js",
