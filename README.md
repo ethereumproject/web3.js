@@ -12,12 +12,10 @@ To migrate to this version, please follow the guide:
 
 # Ethereum JavaScript API
 
-[![Join the chat at https://gitter.im/ethereum/web3.js](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ethereum/web3.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 This is the Ethereum compatible [JavaScript API](https://github.com/ethereumproject/wiki/wiki/JavaScript-API)
-which implements the [Generic JSON RPC](https://github.com/ethereumproject/wiki/wiki/JSON-RPC) spec. It's available on npm as a node module, for bower and component as an embeddable js and as a meteor.js package.
+which implements the [Generic JSON RPC](https://github.com/ethereumproject/wiki/wiki/JSON-RPC) spec. It's available for component as an embeddable js and as a meteor.js package.
 
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![dependency status][dep-image]][dep-url] [![dev dependency status][dep-dev-image]][dep-dev-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Stories in Ready][waffle-image]][waffle-url]
+[![dependency status][dep-image]][dep-url] [![dev dependency status][dep-dev-image]][dep-dev-url] [![Stories in Ready][waffle-image]][waffle-url]
 
 <!-- [![browser support](https://ci.testling.com/ethereumproject/ethereum.js.png)](https://ci.testling.com/ethereumproject/ethereum.js) -->
 
@@ -27,12 +25,6 @@ You need to run a local Ethereum node to use this library.
 
 ## Installation
 
-### Node.js
-
-```bash
-npm install web3
-```
-
 ### Meteor.js
 
 ```bash
@@ -40,12 +32,6 @@ meteor add ethereumclassic:web3
 ```
 
 ### As Browser module
-Bower
-
-```bash
-bower install web3
-```
-
 Component
 
 ```bash
@@ -104,16 +90,10 @@ npm run-script build
 npm test
 ```
 
-[npm-image]: https://badge.fury.io/js/web3.png
-[npm-url]: https://npmjs.org/package/web3
-[travis-image]: https://travis-ci.org/ethereum/web3.js.svg
-[travis-url]: https://travis-ci.org/ethereum/web3.js
 [dep-image]: https://david-dm.org/ethereumproject/web3.js.svg
 [dep-url]: https://david-dm.org/ethereumproject/web3.js
 [dep-dev-image]: https://david-dm.org/ethereumproject/web3.js/dev-status.svg
 [dep-dev-url]: https://david-dm.org/ethereumproject/web3.js#info=devDependencies
-[coveralls-image]: https://coveralls.io/repos/ethereum/web3.js/badge.svg?branch=master
-[coveralls-url]: https://coveralls.io/r/ethereum/web3.js?branch=master
 [waffle-image]: https://badge.waffle.io/ethereumproject/web3.js.svg?label=ready&title=Ready
 [waffle-url]: http://waffle.io/ethereumproject/web3.js
 
